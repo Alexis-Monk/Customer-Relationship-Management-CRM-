@@ -1,0 +1,46 @@
+# Customers API
+
+This is a simple API for managing customer data.
+
+## Installation
+
+1. Make sure you have Go installed on your system.
+2. Clone this repository to your local machine.
+3. Navigate to the project directory.
+
+## Usage
+
+To run the API, use the following steps:
+
+1. Open a terminal window and navigate to the project directory.
+2. Run the following command to start the server:
+
+```bash
+go run main.go
+
+1. The server will start on port 3000. You can access the API at http://localhost:3000.
+
+Endpoints
+The following endpoints are available:
+- GET /customers: Get a list of all customers.
+- GET /customers/{id}: Get details of a specific customer.
+- POST /customers: Add a new customer.
+- PATCH /customers/{id}: Update an existing customer.
+- DELETE /customers/{id}: Delete an existing customer.
+
+API Information
+- API Name: Customers API
+- Description: This API allows you to manage customer data.
+- Available Endpoints:
+    - GET /customers: Get a list of customers.
+    - GET /customers/{id}: Get details of a customer.
+    - POST /customers: Add a new customer.
+    - PATCH /customers/{id}: Update an existing customer.
+    - DELETE /customers/{id}: Delete an existing customer.
+Please refer to the respective endpoint descriptions for more details on how to use them.
+
+Author
+Alexis Monje Torres
+
+License
+This project is licensed under the MIT License.
